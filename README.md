@@ -11,5 +11,8 @@ This are my configuration for running localstack for ctk development.
 - terraform
 
 # Setting it all up
-Just use `make setupall` to set up localstack with all the required services and resources.
+Just use `make setup-all` to set up localstack with all the required services and resources.
 
+# Cleaning up
+`make stop-all` will stop and remove the localstack container, with the terraform state files.
+Terraform cache will remain
